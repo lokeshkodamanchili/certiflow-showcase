@@ -1,0 +1,30 @@
+# CertiFlow — Version 1
+
+[Return to project overview](../../README.md)
+
+Original supplied files, preserved with their original filenames.
+
+- [CERTIFLOW/CERTIFLOW/CERTIFLOW DETAILED PROCESS.pdf](CERTIFLOW/CERTIFLOW/CERTIFLOW%20DETAILED%20PROCESS.pdf)
+- [CERTIFLOW/CERTIFLOW/CertiFlow.pptx](CERTIFLOW/CERTIFLOW/CertiFlow.pptx)
+- [CERTIFLOW/CERTIFLOW/FORMS.jpg](CERTIFLOW/CERTIFLOW/FORMS.jpg)
+- [CERTIFLOW/CERTIFLOW/FROM TRACKER.jpg](CERTIFLOW/CERTIFLOW/FROM%20TRACKER.jpg)
+- [CERTIFLOW/CERTIFLOW/certificate template of lokesh.jpg](CERTIFLOW/CERTIFLOW/certificate%20template%20of%20lokesh.jpg)
+- [CERTIFLOW/CERTIFLOW/dashboard .jpg](CERTIFLOW/CERTIFLOW/dashboard%20.jpg)
+- [CERTIFLOW/CERTIFLOW/excel data .jpg](CERTIFLOW/CERTIFLOW/excel%20data%20.jpg)
+- [CERTIFLOW/CERTIFLOW/flow.jpg](CERTIFLOW/CERTIFLOW/flow.jpg)
+- [CERTIFLOW/CERTIFLOW/html code template.txt](CERTIFLOW/CERTIFLOW/html%20code%20template.txt)
+- [CERTIFLOW/CERTIFLOW/html template.jpg](CERTIFLOW/CERTIFLOW/html%20template.jpg)
+- [CERTIFLOW/CERTIFLOW/logo.jpg](CERTIFLOW/CERTIFLOW/logo.jpg)
+- [CERTIFLOW/CERTIFLOW/not participation mail.jpg](CERTIFLOW/CERTIFLOW/not%20participation%20mail.jpg)
+- [CERTIFLOW/CERTIFLOW/participation mail.jpg](CERTIFLOW/CERTIFLOW/participation%20mail.jpg)
+- [CERTIFLOW/CERTIFLOW/participation.xlsx](CERTIFLOW/CERTIFLOW/participation.xlsx)
+- [CERTIFLOW/CERTIFLOW/pivot tables .jpg](CERTIFLOW/CERTIFLOW/pivot%20tables%20.jpg)
+- [CERTIFLOW/CERTIFLOW/share list.jpg](CERTIFLOW/CERTIFLOW/share%20list.jpg)
+- [CERTIFLOW/CERTIFLOW/site library.jpg](CERTIFLOW/CERTIFLOW/site%20library.jpg)
+- [CERTIFLOW DETAILED PROCESS.pdf](CERTIFLOW%20DETAILED%20PROCESS.pdf)
+- [CertiFlow Gradient Document Logo (1).png](CertiFlow%20Gradient%20Document%20Logo%20%281%29.png)
+- [CertiFlow.pptx](CertiFlow.pptx)
+- [certiflow1_link.txt](certiflow1_link.txt)
+- [certiflow1_video.mp4](certiflow1_video.mp4)
+- [linkedin_post.txt](linkedin_post.txt)
+- [sandeep_Certificate.html](sandeep_Certificate.html)

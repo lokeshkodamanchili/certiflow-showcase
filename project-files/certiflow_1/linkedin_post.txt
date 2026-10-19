@@ -1,0 +1,52 @@
+✨ Internship Project Highlight – CertiFlow Automation System
+Proud to share the successful completion of our internship project at TECHNICAL HUB — a place that turned our ideas into real-world impact through innovation and hands-on learning! 🚀
+
+🔽 Project Name: CertiFlow – Certificate Automation for Workshops
+📍 Organization: Technical Hub
+🎯 Domain: Microsoft 365 Automation (Power Platform)
+
+🔗 Try It Yourself – CertiFlow Demo:
+𝗖𝗹𝗶𝗰𝗸 𝘁𝗵𝗲 𝗹𝗶𝗻𝗸 𝗯𝗲𝗹𝗼𝘄 𝘁𝗼 𝘁𝗲𝘀𝘁 𝗼𝘂𝗿 𝗽𝗿𝗼𝗷𝗲𝗰𝘁!
+📌 𝗙𝗶𝗹𝗹 𝘁𝗵𝗲 𝗳𝗼𝗿𝗺 → 𝗦𝗲𝗹𝗲𝗰𝘁 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝘁𝗶𝗼𝗻 𝗦𝘁𝗮𝘁𝘂𝘀 𝗮𝘀 “𝗬𝗲𝘀” 𝘁𝗼 𝗿𝗲𝗰𝗲𝗶𝘃𝗲 𝗮 𝗰𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗲 📩
+📌 𝗜𝗳 𝘆𝗼𝘂 𝘀𝗲𝗹𝗲𝗰𝘁 “𝗡𝗼”, 𝘆𝗼𝘂'𝗹𝗹 𝗴𝗲𝘁 𝗮 𝗽𝗼𝗹𝗶𝘁𝗲 𝗿𝗲𝗴𝗿𝗲𝘁 𝗲𝗺𝗮𝗶𝗹 𝗶𝗻𝘀𝘁𝗲𝗮𝗱.
+
+▶https://lnkd.in/gwsfb5rD
+
+💡 About the Project:
+CertiFlow is an end-to-end smart certificate automation system powered by Microsoft 365 tools — Forms, Excel, SharePoint, Power Automate, and Outlook.
+
+Key Highlights:
+🔹 Captures participant data through Microsoft Forms
+🔹 Filters attendance data from Excel
+🔹 Automates personalized certificate emails using Power Automate
+🔹 Stores all certificates and logs in SharePoint
+🔹 Reduces manual effort and improves accuracy dramatically
+
+👨‍💻 My Role:
+I designed and built the complete Power Automate flow that runs the heart of CertiFlow.
+✅ Integrated Microsoft Forms with Excel
+✅ Added condition checks for participation status
+✅ Generated individual HTML certificates
+✅ Automated Outlook email delivery with attachments
+✅ Updated SharePoint list with certificate links and status — all in one seamless flow!
+
+🤝 Team Members:
+🧠 S S LOKESH KODAMANCHILI (Me!)
+⚙ Mohan mani shankar
+💡 Vinay Gupta Kandula
+🔍 Matseti Kedhara Sri Ramakrishna
+🔧 Sai Sumanth Madisi
+
+🎓 A special thank you to our incredible mentors:
+
+👨‍🏫 Nagendra Kishore Girajala Sir
+👩‍🏫 Jakke Harshavardhini Madam
+Your constant encouragement, technical guidance, and real-world insights made this project journey not only successful but truly meaningful. From reviewing our flow designs to helping us troubleshoot challenges, your mentorship was the backbone of our learning.
+
+My sincere gratitude to Babji Neelam Sir (Founder & CEO, TECHNICAL HUB ) for providing this transformative learning platform.
+
+We’re grateful for the time, feedback, and support you invested in us — and we carry these lessons forward with pride. 🙏✨
+
+🙌 This project helped me grow both technically and professionally. I gained confidence in building no-code automation workflows and truly understood the power of integration tools.
+
+📢 We’re excited to take CertiFlow beyond the classroom and into real use cases!

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Georgia', serif;
+        background: #fffdf5;
+        padding: 60px;
+        margin: 0;
+      }
+      .certificate {
+        border: 10px solid #0d47a1;
+        padding: 40px;
+        text-align: center;
+        max-width: 800px;
+        margin: auto;
+        background: #ffffff;
+      }
+      .title {
+        font-size: 40px;
+        color: #0d47a1;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .subtitle {
+        font-size: 18px;
+        margin-bottom: 40px;
+        color: #555;
+      }
+      .name {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .event {
+        font-size: 20px;
+        color: #444;
+        margin-bottom: 10px;
+      }
+      .date {
+        font-size: 18px;
+        margin-top: 20px;
+        color: #777;
+      }
+      .footer {
+        margin-top: 60px;
+        font-size: 16px;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="certificate">
+      <div class="title">Certificate of Participation</div>
+      <div class="subtitle">This is proudly presented to</div>
+      <div class="name">@{items('Apply_to_each')?['Full Name']}</div>
+      <div class="event">for participating in the event
+<strong>@{items('Apply_to_each')?['Event Name']}</strong></div>
+      <div class="date">Held on @{items('Apply_to_each')?['Date']}</div>
+      <div class="footer">Organized by Aditya Engineering College
+– CertiFlow Team</div>
+    </div>
+  </body>
+</html>

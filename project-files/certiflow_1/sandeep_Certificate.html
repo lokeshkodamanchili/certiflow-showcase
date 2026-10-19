@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Certificate of Participation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 297mm;
+      height: 210mm;
+      overflow: hidden;
+      background: #f5f0e8;
+    }
+
+    .certificate {
+      width: 297mm;
+      height: 210mm;
+      background: #faf7f0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* ── GOLD DOUBLE BORDER FRAME ── */
+    .frame-outer {
+      position: absolute;
+      inset: 6mm;
+      border: 2px solid #c8a84b;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .frame-inner {
+      position: absolute;
+      inset: 8.5mm;
+      border: 0.8px solid #c8a84b;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* ── BLACK GOLD SWIRL – TOP LEFT ── */
+    .swirl-tl {
+      position: absolute;
+      top: 0; left: 0;
+      width: 72mm;
+      height: 72mm;
+      z-index: 1;
+    }
+
+    /* ── BLACK GOLD SWIRL – BOTTOM RIGHT ── */
+    .swirl-br {
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 72mm;
+      height: 72mm;
+      z-index: 1;
+      transform: rotate(180deg);
+    }
+
+    /* ── SEAL ── */
+    .seal {
+      position: absolute;
+      top: 14mm;
+      left: 18mm;
+      width: 22mm;
+      height: 22mm;
+      z-index: 10;
+    }
+
+    .seal-outer {
+      width: 22mm;
+      height: 22mm;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #3a3a3a, #111);
+      border: 2px solid #c8a84b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 3px #faf7f0, 0 0 0 5px #c8a84b;
+    }
+
+    .seal-star {
+      font-size: 18pt;
+      color: #c8a84b;
+    }
+
+    /* ── CONTENT ── */
+    .content {
+      position: relative;
+      z-index: 5;
+      text-align: center;
+      width: 100%;
+      padding: 0 30mm;
+    }
+
+    .cert-label {
+      font-family: 'Cinzel', serif;
+      font-size: 7.5pt;
+      letter-spacing: 5px;
+      color: #888;
+      text-transform: uppercase;
+      margin-bottom: 2mm;
+    }
+
+    .cert-title {
+      font-family: 'Cinzel', serif;
+      font-size: 34pt;
+      font-weight: 900;
+      color: #1a1a1a;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 1mm;
+    }
+
+    .cert-subtitle {
+      font-family: 'Cinzel', serif;
+      font-size: 9pt;
+      letter-spacing: 6px;
+      color: #c8a84b;
+      text-transform: uppercase;
+      margin-bottom: 5mm;
+    }
+
+    /* thin gold rule */
+    .rule {
+      width: 55mm;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #c8a84b 30%, #c8a84b 70%, transparent);
+      margin: 0 auto 4mm;
+    }
+
+    .presented-to {
+      font-family: 'EB Garamond', serif;
+      font-size: 10.5pt;
+      color: #777;
+      font-style: italic;
+      margin-bottom: 3mm;
+    }
+
+    .recipient-name {
+      font-family: 'Great Vibes', cursive;
+      font-size: 40pt;
+      color: #b8860b;
+      line-height: 1.1;
+      margin-bottom: 1mm;
+    }
+
+    .name-rule {
+      width: 100mm;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #c8a84b 25%, #c8a84b 75%, transparent);
+      margin: 0 auto 5mm;
+    }
+
+    .body-text {
+      font-family: 'EB Garamond', serif;
+      font-size: 10.5pt;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 6mm;
+    }
+
+    /* ── SIGNATURE BLOCK ── */
+    .sig-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .sig-name-script {
+      font-family: 'Great Vibes', cursive;
+      font-size: 22pt;
+      color: #333;
+      line-height: 1;
+      margin-bottom: 1mm;
+    }
+
+    .sig-rule {
+      width: 45mm;
+      height: 1px;
+      background: #555;
+      opacity: 0.3;
+      margin-bottom: 2px;
+    }
+
+    .sig-name {
+      font-family: 'Cinzel', serif;
+      font-size: 7.5pt;
+      letter-spacing: 1.5px;
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .sig-title {
+      font-family: 'EB Garamond', serif;
+      font-size: 9pt;
+      color: #888;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+<div class="certificate">
+
+  <!-- FRAME -->
+  <div class="frame-outer"></div>
+  <div class="frame-inner"></div>
+
+  <!-- TOP-LEFT SWIRL (SVG) -->
+  <svg class="swirl-tl" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+    <!-- Black base shape -->
+    <path d="M0,0 L220,0 Q160,20 130,60 Q100,100 120,160 Q140,200 100,220 L0,220 Z" fill="#1a1a1a"/>
+    <!-- Gold swirl lines -->
+    <path d="M10,10 Q80,30 100,90 Q120,150 80,200" fill="none" stroke="#c8a84b" stroke-width="2.5" opacity="0.9"/>
+    <path d="M0,50 Q60,60 80,120 Q100,175 60,220" fill="none" stroke="#c8a84b" stroke-width="1.5" opacity="0.6"/>
+    <path d="M30,0 Q110,40 120,110 Q130,170 90,210" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+    <!-- Gold accent edge -->
+    <path d="M220,0 L210,0 Q150,22 122,65 Q94,108 114,164 Q132,204 96,220 L106,220 Q142,204 124,162 Q104,106 132,63 Q160,20 220,0Z" fill="#c8a84b" opacity="0.85"/>
+    <!-- Shimmer highlight -->
+    <path d="M200,0 Q145,25 118,72 Q91,119 110,172" fill="none" stroke="#fff8dc" stroke-width="1" opacity="0.35"/>
+  </svg>
+
+  <!-- BOTTOM-RIGHT SWIRL (same SVG, rotated 180°) -->
+  <svg class="swirl-br" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,0 L220,0 Q160,20 130,60 Q100,100 120,160 Q140,200 100,220 L0,220 Z" fill="#1a1a1a"/>
+    <path d="M10,10 Q80,30 100,90 Q120,150 80,200" fill="none" stroke="#c8a84b" stroke-width="2.5" opacity="0.9"/>
+    <path d="M0,50 Q60,60 80,120 Q100,175 60,220" fill="none" stroke="#c8a84b" stroke-width="1.5" opacity="0.6"/>
+    <path d="M30,0 Q110,40 120,110 Q130,170 90,210" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+    <path d="M220,0 L210,0 Q150,22 122,65 Q94,108 114,164 Q132,204 96,220 L106,220 Q142,204 124,162 Q104,106 132,63 Q160,20 220,0Z" fill="#c8a84b" opacity="0.85"/>
+    <path d="M200,0 Q145,25 118,72 Q91,119 110,172" fill="none" stroke="#fff8dc" stroke-width="1" opacity="0.35"/>
+  </svg>
+
+  <!-- SEAL -->
+  <div class="seal">
+    <div class="seal-outer">
+      <span class="seal-star">★</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <div class="cert-label">Aditya Engineering College</div>
+    <div class="cert-title">Certificate</div>
+    <div class="cert-subtitle">of Participation</div>
+
+    <div class="rule"></div>
+
+    <div class="presented-to">This certificate is proudly presented to</div>
+
+    <div class="recipient-name">sandeep</div>
+    <div class="name-rule"></div>
+
+    <div class="body-text">
+      For participating in the <strong>Ai workshop</strong><br/>
+      held by Aditya Engineering College on 2026-10-22
+    </div>
+
+    <div class="sig-block">
+      <div class="sig-name-script">lokesh</div>
+      <div class="sig-rule"></div>
+      <div class="sig-title">principal</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
