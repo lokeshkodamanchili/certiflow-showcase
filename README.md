@@ -51,14 +51,14 @@ flowchart TD
 
 ## The showcase
 
-- Responsive navy and mint interface
-- Separate quick-start guides and live Microsoft Forms links
-- Interactive walkthrough of the five connected Microsoft tools
-- Two original demo videos, played locally in an accessible modal
-- Actual project screenshots with enlarged views
-- Version comparison, project downloads, team, mentors, and FAQs
-- Keyboard-accessible tabs, reduced-motion support, and mobile navigation
-- Plain HTML, CSS, and JavaScript; no build tools or framework installation
+- Compact light interface with Manrope headings and DM Sans body text
+- Original CertiFlow 1 logo in the header, footer, and browser tab
+- One keyboard-accessible version selector with each version’s original logo
+- Short instructions, Microsoft Forms demos, and video walkthroughs
+- Excel template download for bulk uploads and expandable extra help
+- Five highlighted team cards and a clickable GitHub repository preview
+- Subtle transitions with reduced-motion support
+- Plain HTML, CSS, and JavaScript; no build step
 
 ## Run locally
 
@@ -153,7 +153,7 @@ With thanks to mentors **Nagendra Kishore Girajala** and **Jakke Harshavardhini*
 - Form links: `index.html` and the `versions` object in `app.js`.
 - Team, mentors, and project copy: `index.html`.
 - Styles and responsive layout: `styles.css`.
-- Videos: preserve the current relative paths or update both `index.html` and `app.js`.
+- Videos: preserve the current paths or update `app.js` and the fallback video link in `index.html`.
 - Google Fonts is optional; the site falls back to system fonts when unavailable.
 - The original Microsoft 365 automation must be maintained separately from this website.
 
